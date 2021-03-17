@@ -2,6 +2,20 @@ def my_function():
 
     print("Hello World")
 
-# The variable that'll be used in oter modules
+# Defining our variable
 #
 name = "Nicholas"
+
+# Defining a class
+#
+class Student:
+
+    def __init__(self, name, course):
+
+        self.course = course
+        self.name = name
+
+    def get_student_details(self):
+
+        print("Your name is " + self.name + ".")
+        print("You're studying " + self.course + ".")
