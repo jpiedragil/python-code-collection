@@ -1,3 +1,3 @@
-import hello
+from  hello import my_function
 
-hello.my_function()
+my_function()
