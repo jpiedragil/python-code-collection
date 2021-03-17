@@ -1,3 +1,5 @@
-from  hello import my_function
+import hello
 
-my_function()
+hello.my_function()
+
+print(hello.name)
